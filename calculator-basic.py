@@ -21,8 +21,6 @@ DESC: Function will serve as an event action for all the buttons.
       It will update the current expression and display it to the
       screen.
 '''
-
-
 def btn_click(item):
     global expression
     expression = expression + str(item)
